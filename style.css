@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background-image: url(background_image.jpg);
+    height: 1000px;
+    position: relative;
+}
+.container-shadow {
+background-color: rgba(0, 0, 0, 0.3);
+width: 80%;
+height:90% ;
+left: 50%;
+position: relative;
+display: flex;
+flex-direction:column;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+
+.font{
+    position: relative;
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    font-size: 50px;
+    line-height: 5rem;
+    display: flex;
+    justify-content: center;
+
+}
+.description {
+    position: relative;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: white;
+    font-size: 23px;
+    line-height: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+.black-box {
+    background-color: black;
+    position: relative;
+    width: 50%;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.label {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 1.5rem;
+}
+.label-fonts{
+margin-left: 1.8rem;
+}
+
+.forminput {
+    position: relative;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    margin-top: 0.5rem;
+
+}
+.label-box {
+    position: relative;
+    left:5%;
+    margin-top: 1rem;
+}
+.label-box1 {
+    position: relative;
+    margin-top: 1.5rem;
+
+}
+.button {
+    position: relative;
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 5rem;
+    height:1.5rem ;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+
+}
